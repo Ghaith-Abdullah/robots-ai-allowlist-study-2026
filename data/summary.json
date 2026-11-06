@@ -1,0 +1,192 @@
+{
+  "tranco_top_10000": {
+    "targets": 10000,
+    "outcomes": {
+      "read": 5707,
+      "unreachable": 2150,
+      "no-file": 1586,
+      "not-a-robots-file": 557
+    },
+    "name_an_ai_crawler": 1573,
+    "name_an_ai_crawler_pct": 27.6,
+    "default_deny_excluded": 43,
+    "allow_ai_and_have_wildcard_rules": 479,
+    "crawler_escapes_a_rule": 340,
+    "crawler_escapes_a_rule_pct": 71,
+    "clearest_cases_plain": 214,
+    "clearest_cases_plain_pct": 44.7
+  },
+  "by_rank": {
+    "1-1000": {
+      "targets": 1000,
+      "outcomes": {
+        "read": 519,
+        "unreachable": 271,
+        "no-file": 146,
+        "not-a-robots-file": 64
+      },
+      "name_an_ai_crawler": 185,
+      "name_an_ai_crawler_pct": 35.6,
+      "default_deny_excluded": 12,
+      "allow_ai_and_have_wildcard_rules": 64,
+      "crawler_escapes_a_rule": 38,
+      "crawler_escapes_a_rule_pct": 59.4,
+      "clearest_cases_plain": 21,
+      "clearest_cases_plain_pct": 32.8
+    },
+    "1001-5000": {
+      "targets": 4000,
+      "outcomes": {
+        "read": 2215,
+        "unreachable": 961,
+        "no-file": 598,
+        "not-a-robots-file": 226
+      },
+      "name_an_ai_crawler": 608,
+      "name_an_ai_crawler_pct": 27.4,
+      "default_deny_excluded": 18,
+      "allow_ai_and_have_wildcard_rules": 194,
+      "crawler_escapes_a_rule": 136,
+      "crawler_escapes_a_rule_pct": 70.1,
+      "clearest_cases_plain": 83,
+      "clearest_cases_plain_pct": 42.8
+    },
+    "5001-10000": {
+      "targets": 5000,
+      "outcomes": {
+        "read": 2973,
+        "unreachable": 918,
+        "not-a-robots-file": 267,
+        "no-file": 842
+      },
+      "name_an_ai_crawler": 780,
+      "name_an_ai_crawler_pct": 26.2,
+      "default_deny_excluded": 13,
+      "allow_ai_and_have_wildcard_rules": 221,
+      "crawler_escapes_a_rule": 166,
+      "crawler_escapes_a_rule_pct": 75.1,
+      "clearest_cases_plain": 110,
+      "clearest_cases_plain_pct": 49.8
+    }
+  },
+  "rules_cancelled_per_site": {
+    "median": 14,
+    "p90": 68,
+    "max": 606,
+    "total": 11026
+  },
+  "sites_with_sensitive_word_rule": 235,
+  "sites_where_googlebot_escapes": 225,
+  "sites_per_crawler": {
+    "gptbot": 193,
+    "oai-searchbot": 186,
+    "chatgpt-user": 184,
+    "perplexitybot": 159,
+    "claudebot": 154,
+    "ccbot": 97,
+    "claude-searchbot": 76,
+    "claude-user": 76,
+    "amazonbot": 72,
+    "perplexity-user": 71,
+    "meta-externalagent": 68,
+    "anthropic-ai": 66,
+    "bytespider": 56,
+    "cohere-ai": 37,
+    "duckassistbot": 31,
+    "mistralai-user": 18,
+    "google-cloudvertexbot": 12
+  },
+  "no_file_http_status": {
+    "202": 12,
+    "204": 7,
+    "400": 15,
+    "401": 3,
+    "403": 850,
+    "404": 571,
+    "405": 3,
+    "406": 13,
+    "409": 1,
+    "410": 3,
+    "412": 1,
+    "417": 1,
+    "418": 14,
+    "429": 20,
+    "447": 1,
+    "451": 3,
+    "498": 2,
+    "500": 10,
+    "502": 10,
+    "503": 19,
+    "520": 4,
+    "521": 4,
+    "522": 11,
+    "525": 1,
+    "529": 1,
+    "530": 6
+  },
+  "unreachable_reason": {
+    "ENOTFOUND": 1376,
+    "UND_ERR_CONNECT_TIMEOUT": 436,
+    "ERR_TLS_CERT_ALTNAME_INVALID": 86,
+    "TimeoutError": 65,
+    "ECONNREFUSED": 41,
+    "CERT_HAS_EXPIRED": 19,
+    "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE": 17,
+    "ECONNRESET": 15,
+    "UNABLE_TO_VERIFY_LEAF_SIGNATURE": 13,
+    "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR": 12,
+    "EAI_AGAIN": 11,
+    "UND_ERR_SOCKET": 9,
+    "SELF_SIGNED_CERT_IN_CHAIN": 8,
+    "ETIMEDOUT": 7,
+    "UNABLE_TO_GET_ISSUER_CERT_LOCALLY": 6,
+    "ENOENT": 5,
+    "ERR_SSL_TLSV1_UNRECOGNIZED_NAME": 5,
+    "TypeError": 4,
+    "UNABLE_TO_GET_ISSUER_CERT": 3,
+    "ERR_SSL_PACKET_LENGTH_TOO_LONG": 3,
+    "DEPTH_ZERO_SELF_SIGNED_CERT": 3,
+    "ERR_SSL_UNEXPECTED_MESSAGE": 1,
+    "UND_ERR_HEADERS_OVERFLOW": 1,
+    "ERR_SSL_DH_KEY_TOO_SMALL": 1,
+    "ERR_SSL_WRONG_SIGNATURE_TYPE": 1,
+    "ERR_SSL_UNSUPPORTED_PROTOCOL": 1,
+    "ERR_SSL_UNSAFE_LEGACY_RENEGOTIATION_DISABLED": 1
+  },
+  "regional_samples": {
+    "mena-seo-agencies": {
+      "targets": 30,
+      "outcomes": {
+        "read": 24,
+        "no-file": 2,
+        "unreachable": 3,
+        "not-a-robots-file": 1
+      },
+      "name_an_ai_crawler": 7,
+      "name_an_ai_crawler_pct": 29.2,
+      "default_deny_excluded": 0,
+      "allow_ai_and_have_wildcard_rules": 5,
+      "crawler_escapes_a_rule": 4,
+      "crawler_escapes_a_rule_pct": 80,
+      "clearest_cases_plain": 4,
+      "clearest_cases_plain_pct": 80
+    },
+    "gulf-brands": {
+      "targets": 30,
+      "outcomes": {
+        "read": 21,
+        "no-file": 2,
+        "unreachable": 6,
+        "not-a-robots-file": 1
+      },
+      "name_an_ai_crawler": 5,
+      "name_an_ai_crawler_pct": 23.8,
+      "default_deny_excluded": 0,
+      "allow_ai_and_have_wildcard_rules": 2,
+      "crawler_escapes_a_rule": 2,
+      "crawler_escapes_a_rule_pct": 100,
+      "clearest_cases_plain": 1,
+      "clearest_cases_plain_pct": 50
+    }
+  }
+}

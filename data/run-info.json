@@ -1,0 +1,13 @@
+{
+  "started": "2026-11-06T08:39:03.642Z",
+  "finished": "2026-11-06T09:02:08.980Z",
+  "resumed_rows": 10063,
+  "tranco_list_id": "K9YYW",
+  "tranco_date": "2026-11-05",
+  "user_agent": "Mozilla/5.0 (compatible; robots-ai-allowlist-study/1.0)",
+  "concurrency": 16,
+  "timeout_ms": 10000,
+  "retry_timeout_ms": 25000,
+  "targets": 10063,
+  "node": "v24.11.1"
+}
